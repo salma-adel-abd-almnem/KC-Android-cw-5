@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/_0101010"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="398dp"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:gravity="center"
+            android:paddingLeft="230dp"
+            android:text="اهلا بك يا عزيزي"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="572dp"
+            android:layout_height="151dp"
+            android:paddingLeft="100dp"
+            app:srcCompat="@drawable/_050505050" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="انت هنا في تطبيق L لحل القضايا المعقده."
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="ارجوك اكتب البيانات المطلوبه بالاسفل  :"
+            android:textColor="#F4FBFB"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="NAME"
+            android:inputType="textPersonName"
+            android:paddingTop="100dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="20dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FAFAFA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center|right"
+            android:hint="AGE"
+            android:inputType="number"
+            android:paddingTop="50dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="20dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#F6F6F6"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:text="التاااليي"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+</LinearLayout>
